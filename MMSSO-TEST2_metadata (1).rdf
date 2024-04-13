@@ -1,0 +1,51 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="http://www.semanticweb.org/administrator/ontologies/maintenance/MetaMaintenanceMotionStateSequenceOntology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionStatus/>RDF,OBSOLETE,INDEXED_PROPERTIES,METRICS,RDF_LABELS,UPLOADED,ANNOTATOR,INDEXED<metadata:submissionStatus/>
+    <metadata:submissionId/>1<metadata:submissionId/>
+    <metadata:ontology/>[object Object]<metadata:ontology/>
+    <omv:hasOntologyLanguage/>OWL<omv:hasOntologyLanguage/>
+    <metadata:contact/>[object Object]<metadata:contact/>
+    <dct:date/>2024-04-12T00:00:00+00:00<dct:date/>
+    <omv:description/>test for FAir<omv:description/>
+    <omv:creationDate/>2024-04-12T20:28:50+00:00<omv:creationDate/>
+    <metadata:pullLocation rdf:resource="https://raw.githubusercontent.com/chirszhou1/MMSSO/main/MMSSO_3.owl"/>
+    <omv:URI rdf:resource="http://www.semanticweb.org/administrator/ontologies/maintenance/MetaMaintenanceMotionStateSequenceOntology"/>
+    <omv:status/>alpha<omv:status/>
+    <metadata:prefLabelProperty rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <metadata:definitionProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <metadata:synonymProperty rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    <metadata:authorProperty rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+    <omv:numberOfClasses/>78<omv:numberOfClasses/>
+    <omv:numberOfIndividuals/>79<omv:numberOfIndividuals/>
+    <omv:numberOfProperties/>93<omv:numberOfProperties/>
+    <metadata:maxDepth/>7<metadata:maxDepth/>
+    <metadata:maxChildCount/>6<metadata:maxChildCount/>
+    <metadata:averageChildCount/>2<metadata:averageChildCount/>
+    <metadata:classesWithOneChild/>14<metadata:classesWithOneChild/>
+    <metadata:classesWithMoreThan25Children/>0<metadata:classesWithMoreThan25Children/>
+    <metadata:classesWithNoDefinition/>46<metadata:classesWithNoDefinition/>
+    <omv:endorsedBy/><omv:endorsedBy/>
+    <omv:hasDomain rdf:resource="https://data.industryportal.enit.fr/categories/Electrical"/>
+    <omv:hasDomain rdf:resource="https://data.industryportal.enit.fr/categories/Electrical"/>
+    <omv:hasLicense rdf:resource="https://opensource.org/licenses/MIT"/>
+    <omv:useImports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+    <owl:deprecated/>false<owl:deprecated/>
+    <dct:identifier rdf:resource="http://www.semanticweb.org/administrator/ontologies/maintenance/MetaMaintenanceMotionStateSequenceOntology"/>
+    <void:dataDump rdf:resource="http://193.50.189.11:8080/ontologies/MMSSO-TEST2/download?download_format=rdf"/>
+    <metadata:csvDump rdf:resource="http://193.50.189.11:8080/ontologies/MMSSO-TEST2/download?download_format=csv"/>
+    <void:openSearchDescription rdf:resource="http://193.50.189.11:8080/search?ontologies=MMSSO-TEST2&q="/>
+    <void:uriLookupEndpoint rdf:resource="http://193.50.189.11:8080/search?ontologies=MMSSO-TEST2&require_exact_match=true&q="/>
+    <voaf:metadataVoc/>local:local<voaf:metadataVoc/>
+    <idot:exampleIdentifier rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/MaintenanceReferenceOntology/OperatingState"/>
+    <schema:includedInDataCatalog/>local:local<schema:includedInDataCatalog/>
+    <metadata:uploadFilePath/>/srv/ontoportal/data/repository/MMSSO-TEST2/1/MMSSO_rdf2.rdf<metadata:uploadFilePath/>
+  </rdf:Description>
+</rdf:RDF>
