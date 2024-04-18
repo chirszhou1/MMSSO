@@ -1,0 +1,1 @@
+MMSS is defined as the state sets of the time-sequence maintenance motion, is proposed to serve as a motion object to connect to other maintenance ontologies.It describes the temporal and spatial of motions and the core elements associated with each state.
