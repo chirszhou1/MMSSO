@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mmsso: <http://www.semanticweb.org/administrator/ontologies/maintenance/MetaMaintenanceMotionStateSequenceOntology#>
+SELECT  ?MP_value ?MPR_value ?MA_value ?MAR_value ?EMA_value  ?EMAR_value
+WHERE { ?MPL rdfs:label "MaintenanceProcess".?dL rdfs:label "described by"@en-us.
+                 ?part rdfs:label "has proper occurrent part"@en-us. ?MP rdf:type ?MPL.  ?MP ?dL ?MPRecord. 
+                 ?MPRecord mmsso:Step_identifiler_MP  ?MPR_value. ?MP ?part ?MA. ?MA ?dL ?MARecord.
+                 ?MARecord mmsso:Step_identifiler_MA  ?MAR_value. ?MA ?part ?EMA.?EMA ?dL ?EMARcord.
+                 ?EMARcord mmsso:Step_identifiler_EMA  ?EMAR_value. ?MP mmsso:Activity_Description ?MP_value.
+                 ?MA mmsso:Activity_Description ?MA_value. ?EMA mmsso:Activity_Description ?EMA_value.}
+ORDER BY ASC(?MPR_value) ASC(?MAR_value) ASC(?EMAR_value)

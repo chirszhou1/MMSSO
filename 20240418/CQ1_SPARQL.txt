@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mmsso: <http://www.semanticweb.org/administrator/ontologies/maintenance/MetaMaintenanceMotionStateSequenceOntology#>
+SELECT  ?MI ?POMI ?MO
+WHERE {?part  rdfs:label "member part of at some times"@en.
+                ?role rdfs:label "has role"@en-us.
+                ?POMI ?part  ?MI.
+                ?POMI ?role ?POrole.
+                 ?POrole mmsso:hasObject ?MOrole.
+                 ?MO ?role ?MOrole.
+}
